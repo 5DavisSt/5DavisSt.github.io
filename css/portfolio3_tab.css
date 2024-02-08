@@ -1,0 +1,9 @@
+/* Une CSS spécifique aux tablettes numériques, dont les règles sont définies dans l'ordre d'apparition des balises de la page HTML  */
+
+#special {
+	gap: 8vh;
+}
+
+#a_propos img {
+	max-width: 50%;
+}
