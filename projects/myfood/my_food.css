@@ -1,0 +1,179 @@
+@font-face {
+	font-family: "Karma";
+	font-weight: 400;
+	src: url("fonts/Karma-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Karma";
+	font-weight: 700;
+	src: url("fonts/Karma-Bold.ttf") format("truetype");
+}
+
+body {
+	font-family: Karma, sans-serif, serif;
+	margin: 0 10vw 0 10vw;
+}
+
+header  {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+	margin-bottom: 9vh;
+	font-size: 1.7em;
+}
+
+#portal {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#portal a {
+	display: block;
+	padding: 15px 15px 15px 15px;
+	color: black;
+	text-decoration: none;
+}
+
+#portal a:hover {
+	color: white;
+	background-color: black;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 18vh;
+}
+
+footer section {
+	width: 28%;
+}
+
+footer a {
+	color: black;
+}
+
+h1 {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+h3 {
+	font-weight: bold;
+	margin-top: 4vh;
+	margin-bottom: 0;
+}
+
+h4 {
+	font-weight: normal;
+	font-style: italic;
+	margin-top: 1vh;
+	margin-bottom: 0;
+}
+
+hr {
+	color: #F3F3F3;
+}
+
+#invisible {
+	display: none;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
+#gallery_content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	width: 23%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+figure img {
+	max-width: 100%;
+	height: auto;
+}
+
+figcaption {
+	text-align: center;
+	max-height: 100%;
+}
+
+
+#about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#about p {
+	text-align: center;
+}
+
+#blog_posts {
+	display: flex;
+	flex-direction: column;
+}
+
+#tags_content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#tags_content a {
+	padding: 5px 5px 0px 5px;
+	background-color: gray;
+	text-decoration: none;
+	color: white;
+	margin-bottom: 20px;
+	margin-right: 5px;
+	font-size: 0.7em;
+}
+
+#tags_content a:hover {
+	color: white;
+	background-color: black;
+	font-size: 1em;
+}
+
+.post {
+	display: flex;
+	flex-direction: row;
+	margin-left: 2vw;
+	margin-top: 2vh;
+	height: 10vh;
+	margin-bottom: 2vh;
+}
+
+.post h3 {
+	font-weight: normal;
+	margin: 0 0 0 0;
+}
+
+.post p {
+	margin: 0 0 0 0;
+}
+
+.post_details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 0 0 1vw;
+}

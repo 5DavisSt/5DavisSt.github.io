@@ -1,0 +1,199 @@
+/* CSS dédiée à l'habillage de la page sur un « smartphone » */
+
+nav {
+	position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+menu {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	color: #F7F5F1;
+	background-color: #000000;
+	text-transform: uppercase;
+  font-size: 0.5em;
+	padding: 1.5vh;
+	position: sticky;
+}
+
+menu a {
+	text-decoration: none;
+	color: #F7F5F1;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+h1 {
+	text-align: center;
+	color: #F7F5F1;
+	padding: 13vh;
+}
+
+#the_cafe {
+	background-image: url("../assets/coffeehouse.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  filter: grayscale(0.5);
+}
+
+#the_cafe div {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #F7F5F1;
+  font-size: 0.6em;
+}
+
+.note {
+	color: #F7F5F1;
+  background-color: #000000;
+	padding: 0.25vh 1vw;
+}
+
+p {
+	margin: 2vw;
+}
+
+img {
+	margin: 2vw;
+  filter: grayscale(0.75);
+}
+
+h2 {
+	font-size: 1em;
+  align-self: center;	
+	color: #F7F5F1;
+	background-color: #000000;
+	text-transform: uppercase;
+	width: fit-content;
+	margin: 5vh 5vw;
+	padding: 0.5vh 2vw;
+}
+
+#about {
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	font-size: 0.8em;
+	line-height: 1.25em;
+}
+
+blockquote {
+	background-color: #F1F1F1;
+	font-style: italic;
+  border-left: 5px solid lightgray;
+}
+
+.author {
+	font-style: normal;
+}
+
+#menu {
+	display: flex;
+	flex-direction: column;
+}
+
+#menu > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1px solid #DDDDDD;
+	padding: 1vh 2vw;
+  box-shadow: 5px 5px 20px #DDDDDD;
+}
+
+#menu > div > div {
+	display: flex;
+	justify-content: space-around;
+	padding: 1.5vh 1vw;
+}
+
+#wrapper {
+	display: flex;
+	justify-content: space-around;
+	background-color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+  box-shadow: 5px 5px 20px #DDDDDD;
+}
+
+#wrapper > div > div {
+  margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+
+#wrapper > div > div span {
+	font-family: sans-serif, serif;
+  font-size: 0.7em;
+	margin: 2vh 2vw;
+}
+
+#wrapper > div > div p {
+	color: gray;
+}
+
+#where {
+	display: flex;
+	flex-direction: column;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form span {
+	font-weight: bold;
+}
+
+form input {
+	border: 1px solid #DDDDDD;
+	height: 5vh;
+	margin: 0.5vh 2vw;
+	padding: 0 1.5vw;
+}
+
+form button {
+	font-family: "Inconsolata", sans-serif, serif;
+	margin: 0.5vh 2vw;
+	padding: 1vh 3vw;
+	width: fit-content;
+	color: #F7F5F1;
+	background-color: #000000;
+  text-transform: uppercase;
+	border: 0px;
+}
+
+#faq {
+	display: flex;
+	flex-direction: column;
+}
+
+.faq_question {
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	margin: 1vh 2vw;
+}
+
+.faq_button {
+	font-weight: bold;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: 1.5vw;
+	padding: 0.5vh 2vw;
+}
+
+footer {
+	margin: 5vh;
+	text-align: center;
+}
+
+footer a {
+	color: #000000;
+}

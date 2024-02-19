@@ -1,0 +1,310 @@
+/* CSS dédiée à l'habillage de la page sur un « smartphone » */
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../font/Montserrat-Regular.ttf") format(truetype);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: calc(1.4em + 1vw);
+	font-family: Montserrat, sans-serif, serif;
+	color: white;
+	background-color: black;
+	margin: 1vh 4vw;
+}
+
+img {
+	max-width: 100%;
+}
+
+nav {
+	background-color: black;
+	position: sticky;
+  top: 0;
+	z-index: 2;
+	padding-bottom: 1vh;
+}
+
+menu {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	text-transform: uppercase;
+	color: gray;
+	font-size: 0.6em;
+}
+
+menu img, #smoke {
+	display: none;
+}
+
+menu a {
+	text-decoration: none;
+	color: white;
+}
+
+#i_am {
+	display: none;
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
+
+h1, h2, h3 {
+	margin: 4vh 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	margin: 3vh 0;
+}
+
+header p {
+	text-align: center;
+	color: white;
+}
+
+p {
+	color: gray;
+	font-size: 0.7em;
+}
+
+span {
+	color: gray;
+}
+
+hr {
+	color: gray;
+	width: 45%;
+	margin: 3vh 0;
+}
+
+h4 {
+	color: gray;
+	font-size: 0.6em;
+	text-transform: full-width;
+}
+
+article > div {
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin: 3vh 0;
+}
+
+button {
+	font-family: Montserrat, sans-serif, serif;
+	border: 0px;
+	padding: 1vh 1vw;
+	width: 90%;
+	background-color: white;
+}
+
+button img {
+	vertical-align: middle;
+	height: 15px;
+	margin-right: 10px;
+}
+
+#my_skills .container {
+	padding: 0;
+}
+
+#my_skills .content {
+	background-color: #616161;
+	height: 2vh;
+}
+
+#photography {
+		width: 95%;
+}
+
+#web_design {
+		width: 85%;
+}
+
+#photoshop {
+		width: 80%;
+}
+
+#my_skills div {
+	padding: 0.8vh 0;
+}
+
+#my_skills div div {
+	padding: 0.8vh 0;
+}
+
+#my_skills span {
+  color: black;
+	font-size: 0.8em;
+}
+
+#my_skills .number {
+	font-size: 1.2em;
+}
+
+#my_price > div {
+		background-color: black;
+}
+
+#my_price > div > div {
+	margin-bottom: 2vh;
+}
+
+#my_price div > div > div {
+	padding: 1.5vh 0;
+	font-size: 0.8em;
+	background: #999999;
+}
+
+#my_price .top {
+	background-color: #3A3A3A;
+	color: gray;
+	padding: 3vh 0;
+	font-size: 1.2em;
+}
+
+#my_price .bottom {
+	background-color: #909090;
+	padding: 2vh 0;
+}
+
+.storage {
+	border-top: 2px solid #8B8B8B;
+	border-bottom: 2px solid #8B8B8B;
+}
+
+.sign_up {
+  width: fit-content;
+	padding: 1.5vh 5vw;
+  background-color: #999;
+}
+
+.money {
+	color: black;
+	font-size: 2em;
+	padding: 2vh 0;
+}
+
+.month {
+	color: #5A5A5A;	
+}
+
+#my_reputation > div {
+	display: flex;
+	text-align: left;
+	background-color: black;
+	font-size: 0.8em;
+	gap: 3vw;
+}
+
+#my_reputation > div > div {
+  display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#my_reputation > div > div > div{
+  display: flex;
+  gap: 5vw;
+}
+
+.avatar {
+	border-radius: 50%;
+  width: 15%;
+}
+
+#gallery {
+	position: relative;
+}
+
+#gallery > img {
+	width: 100%;
+	margin-bottom: 1vh;
+}
+
+dialog {
+	background-color: black;
+	margin: 4vh 4vw;
+}
+
+dialog img {
+  width: max-content;
+}
+
+.close {
+	width: fit-content;
+	position: absolute;
+	top: 1vh;
+	right: 1vw;
+}
+
+
+#contact_me {
+	margin-bottom: 5vh;
+}
+
+#contact_me div {
+	display: flex;
+	margin-bottom: 2vh;
+	gap: 4vw;
+}
+
+.icon {
+	width: 5vw;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	font-family: Montserrat, sans-serif, serif;
+	margin: 1vh 0;
+	padding: 1.5vh 2vw;
+	border: 0px;
+}
+
+form button {
+	width: fit-content;
+	text-transform: uppercase;
+	padding: 1.5vh 3vw;
+	margin-top: 1vh;
+}
+
+form button img {
+  height: 6px;
+}
+
+a {
+	color: gray;
+}
+
+footer {
+	margin-top: 10vh;
+}
+
+footer img {
+	width: 6vw;
+	margin-right: 1vw;
+}

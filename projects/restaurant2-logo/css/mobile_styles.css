@@ -1,0 +1,128 @@
+/* CSS dédiée à l'habillage de la page sur un « smartphone » */
+
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: calc( 1.4em + 1vw);
+	font-family: Raleway, sans-serif, serif;
+	background-color: black;
+	background-image: url("../images/onepage-restaurant.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	color: white;
+	margin: 2vh 3vw;
+}
+
+img {
+	max-width: 100%;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	color: white;
+	background-color: black;
+	padding: 1vh 3vw;
+	width: fit-content;
+	margin-bottom: 2vh;
+	border: 0px;
+	font-family: Raleway, serif, sans-serif;
+	font-size: x-large;
+}
+
+h1 {
+	color: white;	font-weight: normal;
+	text-align: center;
+	padding: 20vh 0;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 1.2em;
+	padding-bottom: 3vh;
+}
+
+h3 {
+	
+	font-weight: normal;
+	font-size: 0.8em;
+	padding-bottom: 2vh;
+}
+
+p {
+	font-size: 0.6em;
+}
+
+a {
+	color: white;
+}
+
+dialog {
+	margin: 2vh 1vw;
+	width: 104%;
+}
+
+dialog > * {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+#button1, #button2 {
+	position: absolute;
+	font-size: 0.6em;
+	color: white;
+	top: 1vh;
+	right: 1vw;
+}
+
+dialog div div, form div {
+	font-size: 1.5em;
+	background-color: black;
+	color: white;
+	padding: 1vh 3vw;
+}
+
+dialog li {
+	list-style-type: none;
+	font-size: 0.8em;
+	margin: 1vh 3vw;
+ }
+
+dialog input {
+	font-size: 0.6em;
+	height: 3vh;
+	margin: 1vh 3vw;
+	border: 2px solid lightgray;
+	padding: 1vh 2vw;
+	font-family: Raleway, serif, sans-serif;
+}
+
+dialog p {
+	font-size: 0.6em;
+	margin: 2vh 3vw;
+}
+
+dialog a {
+	color: black;
+	text-decoration: none;
+	margin: 2vh 6vw;
+  font-size: 0.6em;
+}

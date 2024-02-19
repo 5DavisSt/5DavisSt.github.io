@@ -1,0 +1,21 @@
+/* CSS dédiée à l'habillage de la page sur une tablette tactile */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: calc( 1.4em + 1vw);
+	font-family: sans-serif, serif;
+	border: 3px solid orange; /* Permet de savoir qu'on utilise la CSS d'une tablette */
+}
+
+img {
+	max-width: 100%;
+}

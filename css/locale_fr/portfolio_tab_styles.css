@@ -1,0 +1,27 @@
+/* Une CSS spécifique aux tablettes numériques, dont les règles sont définies dans l'ordre d'apparition des balises de la page HTML  */
+
+#menu_visible {
+	justify-content: space-evenly;
+}
+
+#langue span {
+	display: none;
+}
+
+#langue img {
+	width: 6vw;
+	height: 2vh;
+}
+
+menu {
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#special {
+	gap: 8vh;
+}
+
+#a_propos img {
+	max-width: 50%;
+}

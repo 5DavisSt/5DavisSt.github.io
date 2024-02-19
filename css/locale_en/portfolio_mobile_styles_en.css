@@ -1,0 +1,29 @@
+/* Specific CSS destined to smartphones, where the rules are defined in order of apparition of the tages of the HTML page */
+
+#visible_menu {
+	gap: 20%;
+}
+
+#language span {
+	display: none;
+}
+
+#language img {
+	width: 8vw;
+	height: 3vh;
+}
+
+#wrapper {
+	flex-direction: column;
+	gap: 2vh;
+	margin-top: 1vh;
+}
+
+#about img {
+	max-width: 90%;
+}
+
+#special {
+  max-width: 90%;
+	order: 1;
+}

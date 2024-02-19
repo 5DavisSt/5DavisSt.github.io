@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Restaurant 2's Homepage</title>
+		
+		<link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile_styles.css">
+		<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="css/tablet_styles.css">
+		<link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/computer_styles.css">
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<button id="menu">menu</button>
+				<button id="contact">contact</button>
+			</nav>
+		</header>
+		
+		<main>
+			<h1>logo</h1>
+			<section>
+				<h2>monday - friday 10-23 | saturday 14-02</h2>
+				<h3>42 village St. New York</h3>
+			</section>
+		</main>
+		
+		<footer>
+			<p>
+				powered by <a href="w3.css">w3.css</a>
+			</p>
+		</footer>
+		
+		<dialog id="dialogMenu">
+			<div>
+				<span id="button1">X</span>
+				<div>Starters</div>
+				<ul>
+					<li>Tomato Soup <b>$2.50</b></li>
+					<li>Chicken Salad <b>$3.50</b></li>
+					<li>Bread and Butter <b>$1.00</b></li>
+				</ul>
+				<div>Main Courses</div>
+				<ul>
+					<li>Grilled Fish and Potatoes <b>$8.50</b></li>
+					<li>Italian Pizza <b>$5.50</b></li>
+					<li>Veggie Pasta <b>$4.00</b></li>
+					<li>Chicken and Potatoes <b>$6.50</b></li>
+					<li>Deluxe Burger <b>$5.00</b></li>
+				</ul>
+				<div>Desserts</div>
+				<ul>
+					<li>Fruit Salad <b>$2.50</b></li>
+					<li>Ice Cream <b>$2.00</b></li>
+					<li>Chocolate Cake <b>$4.00</b></li>
+					<li>Cheese<b>$5.50</b></li>
+				</ul>
+			</div>
+		</dialog>
+		
+		<dialog id="dialogContact">
+			<form>
+				<span id="button2">X</span>
+				<div>Contact</div>
+				<p>Reserve a table, ask for today's special or just send us a message:</p>
+				<input type="text" placeholder="Name">
+				<input type="number" placeholder="How many people">
+				<input type="datetime-local">
+				<input type="text" placeholder="Message \ Special requirements">
+				<a href="">SEND MESSAGE</a>
+			</form>
+		</dialog>
+		
+		<script src="scripts/script.js"></script>
+	</body>
+</html>
