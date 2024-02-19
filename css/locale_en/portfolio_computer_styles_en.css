@@ -1,0 +1,36 @@
+/* Specific CSS destined to desktop computers, where the rules are defined in order of apparition of the tages of the HTML page */
+
+#burger {
+	visibility: hidden;
+}
+
+menu {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+section {
+	scroll-margin-top: 20vh;
+}
+
+#about img {
+	max-width: 25%;
+}
+
+#special {
+	gap: 10vh;
+}
+
+#works_content a:hover {
+	filter: contrast(0.5);
+}
+
+#gallery_content > figure {
+	max-width: 49%;
+}
+
+#gallery_content dialog img {
+	height: 80%;
+}

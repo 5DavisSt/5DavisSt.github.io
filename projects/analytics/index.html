@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Dashboard</title>
+		
+		<link rel="stylesheet" media="screen and (max-width: 767px)" href="css/mobile_styles.css">
+		<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="css/tablet_styles.css">
+		<link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/computer_styles.css">
+	</head>
+
+	<body>
+		<header>
+			<div>
+				<span>Menu</span>
+				<div id="logo">Logo</div>
+			</div>
+		</header>
+		
+		<main>
+			<nav>
+				<div id="welcome">
+					<img src="assets/avatar2.png" alt="Avatar 2 (Mike)">
+					<div><span>Welcome, <span id="mike">Mike</span></span>
+					<div id="tools"><img src="assets/envelope.png" alt="Envelope Small Icon"><img src="assets/man-user.png" alt="User Small Icon"><img src="assets/settings-work-tool.png" alt="Settings Small Icon"></div></div>
+				</div>
+				
+				<h2>Dashboard</h2>
+				<div class="tab selected_tab"><img src="assets/multiple-users-silhouette-white.png" alt="Multiple Users Light Icon"><span class="selected_tab">Overview</span></div>
+				<div class="tab"><img src="assets/eye-open.png" alt="Eye Open Icon"><span>Views</span></div>
+				<div class="tab"><img src="assets/multiple-users-silhouette-dark.png" alt="Multiple Users Dark Icon"><span>Traffic</span></div>
+				<div class="tab"><img src="assets/current-location.png" alt="Current Location Icon"><span>Geo</span></div>
+				<div class="tab"><img src="assets/diamond.png" alt="Diamond Icon"><span>Orders</span></div>
+				<div class="tab"><img src="assets/notifications-button.png" alt="Notifications Icon"><span>News</span></div>
+				<div class="tab"><img src="assets/parthenon.png" alt="Parthenon Icon"><span>General</span></div>
+				<div class="tab"><img src="assets/history-clock-button.png" alt="History Clock Icon"><span>History</span></div>
+				<div class="tab"><img src="assets/settings-work-tool.png" alt="Settings Icon"><span>Settings</span></div>
+			</nav>
+
+			<div>
+				<h1>My Dashboard</h1>
+				<div id="dashboard">
+					<div id="messages">
+						<div class="dashboard">
+							<div>
+								<img src="assets/chat-bubble.png" class="icon" alt="Chat Bubble Icon">
+								<span>Messages</span>
+							</div>
+							<span class="score">52</span>
+						</div>
+					</div>
+					<div id="views">
+						<div class="dashboard">
+							<div>
+								<img src="assets/eye-open-white.png" class="icon" alt="Eye Open Icon">
+								<span>Views</span>
+							</div>
+							<span class="score">99</span>
+						</div>
+					</div>
+					<div id="shares">
+						<div class="dashboard">
+							<div>
+								<img src="assets/sharing-interface.png" class="icon" alt="Sharing Interface Icon">
+								<span>Shares</span>
+							</div>
+							<span class="score">23</span>
+						</div>
+					</div>
+					<div id="users">
+						<div class="dashboard">
+							<div>
+								<img src="assets/multiple-users-silhouette-white.png" class="icon" alt="Multiple Users Light Icon">
+								<span>Users</span>
+							</div>
+							<span class="score">50</span>
+						</div>
+					</div>
+				</div>
+
+				<section id="general_stats">
+					<h2>General Stats</h2>
+					
+					<h3>New Visitors</h3>
+					<div><div id="new_visitors"></div></div>
+			
+					<h3>New Users</h3>
+					<div><div id="new_users"></div></div>
+			
+					<h3>Bounce Rate</h3>
+					<div><div id="bounce_rate"></div></div>
+				</section>
+			
+				<div id="wrapper">
+					<div>
+						<section id="regions">
+							<h2>Regions</h2>
+							<img src="assets/region.jpg" alt="Region Icon">
+						</section>
+					</div>
+			
+					<div class="wrapper">
+						<section id="feeds" class="lines">
+							<h2>Feeds</h2>
+							<div>
+								<img src="assets/man-user-blue.png" class="small_icon" alt="Blue User Small Icon"><span>New record, over 90 views.</span><span class="duration">10 mins</span>
+							</div>
+							<div>
+								<img src="assets/notifications-button-red.png" class="small_icon" alt="Red Notification Small Icon"><span>Database error</span><span class="duration">15 mins</span>
+							</div>
+							<div>
+								<img src="assets/multiple-users-silhouette-yellow.png" class="small_icon" alt="Yellow Multiple Users Small Icon"><span>New record, over 40 users.</span><span class="duration">17 mins</span>
+							</div>
+							<div>
+								<img src="assets/chat-bubble-red.png" class="small_icon" alt="Red Chat Bubble Small Icon"><span>New comments.</span><span class="duration">25 mins</span>
+							</div>
+							<div>
+								<img src="assets/bookmark-blue.png" class="small_icon" alt="Blue Bookmark Small Icon"><span>Check transactions.</span><span class="duration">28 mins</span>
+							</div>
+							<div>
+								<img src="assets/open-laptop-computer.png" class="small_icon" alt="Open Laptop Small Icon"><span>CPU overload.</span><span class="duration">35 mins</span>
+							</div>
+							<div>
+								<img src="assets/sharing-interface-green.png" class="small_icon" alt="Sharing Interface Small Icon"><span>New shares.</span><span class="duration">39 mins</span>
+							</div>
+						</section>
+					</div>
+				</div>
+			
+				<section id="countries" class="lines">
+					<h2>Countries</h2>
+					<div>
+						<span>United States</span><span>65%</span>
+					</div>
+					<div>
+						<span>UK</span><span>15.7%</span>
+					</div>
+					<div>
+						<span>Russia</span><span>5.6%</span>
+					</div>
+					<div>
+						<span>Spain</span><span>2.1%</span>
+					</div>
+					<div>
+						<span>India</span><span>1.9%</span>
+					</div>
+					<div>
+						<span>France</span><span>1.5%</span>
+					</div>
+				</section>
+				
+				<div id="more_countries">
+					<span>More Countries</span><img src="assets/arrow-pointing-to-right.png" alt="Right Arrow Button">
+				</div>
+			
+				<h2 id="special_title">Recent Users</h2>
+				<div id="recent_users">
+					<div>
+						<img src="assets/avatar2.png" class="avatar" alt="Small Avatar 2"><span>Mike</span>
+					</div>
+					<div>
+						<img src="assets/avatar5.png" class="avatar" alt="Small Avatar 5"><span>Jill</span>
+					</div>
+					<div class="jane">
+						<img src="assets/avatar6.png" class="avatar" alt="Small Avatar 6"><span>Jane</span>
+					</div>
+				</div>
+			
+				<section id="recent_comments">
+					<span id="left_button"><</span>
+					<span id="right_button">></span>
+					<h2>Recent Comments</h2>
+					<div id="recent_comments_carousel"></div>
+				</section>
+			
+				<aside>
+					<section id="demographic">
+						<h4>Demographic</h4>
+						<span>Language</span><span>Country</span><span>City</span>
+					</section>
+					<section id="system">
+						<h4>System</h4>
+						<span>Browser</span><span>OS</span><span>More</span>
+					</section>
+					<section id="target">
+						<h4>Target</h4>
+						<span>Users</span><span>Active</span><span>Geo</span><span>Interests</span>
+					</section>
+				</aside>
+				
+				<footer>
+					<h2>Footer</h2>
+					<p>Powered by <a href="">w3.css</a></p>
+				</footer>
+			</div>
+		</main>
+		
+		<script src="scripts/script.js"></script>
+	</body>
+</html>

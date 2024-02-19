@@ -1,0 +1,27 @@
+/* Feuille de style contenant des règles appliquées à tous les types d'écran, sans exception */
+
+/* On importe ici la police d'écriture utilisée par la page web */
+@font-face {
+	font-family: "Inconsolata";
+	src: url("../font/Inconsolata-Regular.ttf") format(truetype);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: calc( 1.4em + 1vw);
+	font-family: "Inconsolata", sans-serif;
+  background-color: #F7F5F1;
+}
+
+img {
+	max-width: 100%;
+}

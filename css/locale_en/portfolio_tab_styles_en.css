@@ -1,0 +1,27 @@
+/* Specific CSS destined to digital tablets, where the rules are defined in order of apparition of the tages of the HTML page */
+
+#visible_menu {
+	justify-content: space-evenly;
+}
+
+#language span {
+	display: none;
+}
+
+#language img {
+	width: 5vw;
+	height: 2vh;
+}
+
+menu {
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#special {
+	gap: 8vh;
+}
+
+#about img {
+	max-width: 45%;
+}

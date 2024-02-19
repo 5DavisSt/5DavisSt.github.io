@@ -1,0 +1,29 @@
+/* Une CSS dédiée aux « smartphones », dont les règles sont définies dans l'ordre d'apparition des balises de la page HTML */
+
+#menu_visible {
+	gap: 20%;
+}
+
+#langue span {
+	display: none;
+}
+
+#langue img {
+	width: 10vw;
+	height: 4vh;
+}
+
+#enveloppe {
+	flex-direction: column;
+	gap: 2vh;
+	margin-top: 1vh;
+}
+
+#a_propos img {
+	max-width: 90%;
+}
+
+#special {
+  max-width: 90%;
+	order: 1;
+}
